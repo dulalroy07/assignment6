@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;600;700&family=Roboto&display=swap"); * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+/* Header Section Css */
+
+header {
+    background-color: rgb(244, 239, 239);
+    border: 2px solid #50a89e17;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.logo {
+    flex-basis: 20%;
+}
+
+nav {
+    flex-basis: 80%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 18px;
+    display: block;
+    font-weight: 500;
+    transition: all 0.5s ease 0s;
+    
+}
+
+nav ul li a:hover {
+    background-color: rgb(3, 79, 70);
+    color: white;
+}
+/* Header Section Css End */
+
+/* Hero banner */
+.heroBanner{
+    background-image: url(../images/baner.jpg );
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+}
